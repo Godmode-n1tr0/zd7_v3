@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">pract7</string>
+    <string name="email">Email</string>
+    <string name="pas">Пароль</string>
+    <string name="vhod">Войти</string>
+    <string name="rab">Работник</string>
+    <string name="cli">Клиент</string>
+    <string name="post">Поставщик</string>
+    <string name="naz">Название</string>
+    <string name="name">Имя</string>
+    <string name="email2">Email</string>
+    <string name="names">Имя</string>
+    <string name="email3">Email</string>
+    <string name="email4">Email</string>
+    <string name="namin">Имя</string>
+    <string name="ski">Скидка</string>
+    <string name="nazm">Название</string>
+    <string name="url_email">URL изображения / Email</string>
+</resources>

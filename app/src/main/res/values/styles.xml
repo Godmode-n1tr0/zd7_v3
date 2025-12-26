@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.pract7" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gray</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+</resources>

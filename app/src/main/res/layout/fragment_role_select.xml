@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_role_select_scene">
+
+    <TextView
+        android:id="@+id/tvInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Свайпайте влево/вправо, чтобы выбрать раздел"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnFurniture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Мебель" />
+
+    <Button
+        android:id="@+id/btnClients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Клиенты" />
+
+    <Button
+        android:id="@+id/btnSuppliers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Поставщики" />
+
+    <Button
+        android:id="@+id/btnDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Детали" />
+
+    <Button
+        android:id="@+id/btnOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заказы" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Выход"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
